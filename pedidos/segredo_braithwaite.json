@@ -1,0 +1,71 @@
+{
+  "id": "segredo_braithwaite",
+  "estado": "pedido",
+
+  "cena": "Segredo dos Braithwaite + Peçonha da Boiúna. A criança escondida conta no escuro e fala da Cobra Grande que mora debaixo do chão amaldiçoado. Quem chega perto (3 m) pega a maldição.",
+  "coords": "vector4(895.23, -1968.74, 47.13, 341.8)",
+  "horario": "20:00 a 05:59 (casar com o NPC do nss_npc, npcs/jack_the_butcher.lua)",
+  "destino": "resources/[sevs]/rsg-npcs/sounds/",
+  "arquivo": "segredo_braithwaite.mp3",
+  "duracao_total_s": 90,
+
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "night ambience in an old swamp forest, low wind through dry trees, distant crickets, old wooden shack creaking softly, no music",
+      "duracao_s": 22,
+      "repetir": true,
+      "inicio_s": 0,
+      "volume": 0.55
+    },
+    {
+      "tipo": "fala",
+      "voz": "criança rouca, sussurrando perto do ouvido, com medo, cansada",
+      "voice_id": "",
+      "texto": "Um... dois... três... quatro... A mãe disse para eu não sair.",
+      "inicio_s": 4,
+      "volume": 1.0,
+      "estabilidade": 0.3,
+      "estilo": 0.5
+    },
+    {
+      "tipo": "fala",
+      "voz": "a mesma",
+      "voice_id": "",
+      "texto": "Você ouviu? Ela está debaixo da terra. A Cobra Grande.",
+      "inicio_s": 26,
+      "volume": 1.0,
+      "estabilidade": 0.3,
+      "estilo": 0.5
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "long low hiss of a huge snake close to the ground, muffled, slow",
+      "duracao_s": 4,
+      "inicio_s": 40,
+      "volume": 0.5
+    },
+    {
+      "tipo": "fala",
+      "voz": "a mesma",
+      "voice_id": "",
+      "texto": "Não pisa aí. Quem pisa no chão dela fica com o frio dentro dos ossos.",
+      "inicio_s": 50,
+      "volume": 1.0,
+      "estabilidade": 0.3,
+      "estilo": 0.5
+    },
+    {
+      "tipo": "fala",
+      "voz": "a mesma",
+      "voice_id": "",
+      "texto": "Cinco... seis... Ela não pode me ver.",
+      "inicio_s": 74,
+      "volume": 1.0,
+      "estabilidade": 0.3,
+      "estilo": 0.5
+    }
+  ],
+
+  "observacao": "Usar a MESMA voz nas 4 falas (escolher na Voice Library uma voz de criança ou voz baixa sussurrada e pôr o id em voice_id, ou no ELEVENLABS_VOICE_ID). Efeitos em inglês porque o gerador de efeitos entende melhor. No jogo toca a 15 m, volume 0.1: o sussurro tem que ser audível de perto e sumir de longe."
+}

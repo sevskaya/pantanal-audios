@@ -1,0 +1,41 @@
+{
+  "_leia": "Modelo de pedido. Copie para pedidos/<id>.json. Campos que comecam com _ sao comentario e o gerador ignora.",
+
+  "id": "segredo_braithwaite",
+  "estado": "pedido",
+  "_estado": "pedido (servidor escreveu) -> gerado (PC gerou) -> instalado (servidor ligou no jogo)",
+
+  "cena": "Segredo dos Braithwaite, perto da casa abandonada ao sul de Braithwaite",
+  "coords": "vector4(895.23, -1968.74, 47.13, 341.8)",
+  "horario": "20:00 a 05:59",
+  "destino": "resources/[sevs]/rsg-npcs/sounds/",
+  "arquivo": "segredo_braithwaite.mp3",
+  "duracao_total_s": 75,
+
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "_tipo": "efeito = som gerado pela descricao (ElevenLabs Sound Effects). fala = voz lendo o texto (ElevenLabs Text to Speech).",
+      "descricao": "vento noturno baixo entre arvores secas, grilos ao longe, madeira velha rangendo",
+      "inicio_s": 0,
+      "duracao_s": 22,
+      "_duracao_s": "efeito: de 0.5 a 22 s (limite do ElevenLabs)",
+      "repetir": true,
+      "_repetir": "true = o efeito se repete ate o fim de duracao_total_s (bom para fundo de ambiente)",
+      "volume": 0.6
+    },
+    {
+      "tipo": "fala",
+      "voz": "voz rouca e infantil, sussurrando, assustada",
+      "voice_id": "",
+      "_voice_id": "vazio = usa ELEVENLABS_VOICE_ID do PC",
+      "texto": "Um... dois... três... ela não pode me ver.",
+      "inicio_s": 4,
+      "volume": 1.0,
+      "estabilidade": 0.3,
+      "estilo": 0.5
+    }
+  ],
+
+  "observacao": "Texto livre para quem gera: o clima, o que nao pode faltar."
+}
