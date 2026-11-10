@@ -1,0 +1,43 @@
+{
+  "id": "rito_fogo_ambiente",
+  "estado": "pedido",
+  "cena": "pantanal_rituais, Rito da Brasa (Fogo). Fundo em laço enquanto o rito acontece; a tela do ritual toca e baixa o volume com a distância.",
+  "destino": "resources/[sevskaya]/pantanal_rituais/html/sons/",
+  "arquivo": "rito_fogo_ambiente.mp3",
+  "duracao_total_s": 60,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "large bonfire roaring and crackling at night, embers popping, wood shifting in the flames, no voices, no music, no melody",
+      "duracao_s": 22,
+      "inicio_s": 0,
+      "volume": 0.8,
+      "repetir": true
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "sudden whoosh of fire flaring up, short, no music, no melody",
+      "duracao_s": 2,
+      "inicio_s": 18,
+      "volume": 0.5
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "sudden whoosh of fire flaring up, short, no music, no melody",
+      "duracao_s": 2,
+      "inicio_s": 44,
+      "volume": 0.5
+    },
+    {
+      "tipo": "fala",
+      "voz": "várias vozes graves murmurando juntas, ao longe, como reza",
+      "voice_id": "",
+      "texto": "Brasa... brasa... aceita o que é teu.",
+      "inicio_s": 30,
+      "volume": 0.25,
+      "estabilidade": 0.3,
+      "estilo": 0.4
+    }
+  ],
+  "observacao": "Sem música. Loop sem emenda audível nos de ambiente. Fala em português de 1492, sem travessão. O jogo controla o volume final."
+}

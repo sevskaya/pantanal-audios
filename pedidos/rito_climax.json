@@ -1,0 +1,18 @@
+{
+  "id": "rito_climax",
+  "estado": "pedido",
+  "cena": "pantanal_rituais: toca uma vez no clímax (clarão na tela, os espíritos animais aparecem).",
+  "destino": "resources/[sevskaya]/pantanal_rituais/html/sons/",
+  "arquivo": "rito_climax.mp3",
+  "duracao_total_s": 7,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "massive supernatural whoosh and roar of wind, a burst of flame and ghostly animal howls rising together, intense, no music, no melody",
+      "duracao_s": 7,
+      "inicio_s": 0,
+      "volume": 1
+    }
+  ],
+  "observacao": "Sem música. Loop sem emenda audível nos de ambiente. Fala em português de 1492, sem travessão. O jogo controla o volume final."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "rito_quebrado",
+  "estado": "pedido",
+  "cena": "pantanal_rituais: toca uma vez quando o rito se quebra.",
+  "destino": "resources/[sevskaya]/pantanal_rituais/html/sons/",
+  "arquivo": "rito_quebrado.mp3",
+  "duracao_total_s": 5,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "sharp crack like breaking stone followed by fire being snuffed out with a hiss and a hollow gust, no music, no melody",
+      "duracao_s": 5,
+      "inicio_s": 0,
+      "volume": 0.9
+    }
+  ],
+  "observacao": "Sem música. Loop sem emenda audível nos de ambiente. Fala em português de 1492, sem travessão. O jogo controla o volume final."
+}

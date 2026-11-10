@@ -1,0 +1,49 @@
+{
+  "id": "rito_fe_ambiente",
+  "estado": "pedido",
+  "cena": "pantanal_rituais, Vigília Sagrada (Fé). Fundo em laço: ladainha rezada em português, baixinho, velas, noite calma.",
+  "destino": "resources/[sevskaya]/pantanal_rituais/html/sons/",
+  "arquivo": "rito_fe_ambiente.mp3",
+  "duracao_total_s": 60,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "quiet calm night in a forest clearing, soft crickets, candle flames gently flickering, very peaceful, no music, no melody",
+      "duracao_s": 22,
+      "inicio_s": 0,
+      "volume": 0.6,
+      "repetir": true
+    },
+    {
+      "tipo": "fala",
+      "voz": "grupo de pessoas rezando juntas em voz baixa, ritmo de ladainha",
+      "voice_id": "",
+      "texto": "Senhor, tende piedade de nós. Cristo, tende piedade de nós.",
+      "inicio_s": 5,
+      "volume": 0.35,
+      "estabilidade": 0.6,
+      "estilo": 0.2
+    },
+    {
+      "tipo": "fala",
+      "voz": "grupo de pessoas rezando juntas em voz baixa, ritmo de ladainha",
+      "voice_id": "",
+      "texto": "Rogai por nós. Rogai por nós.",
+      "inicio_s": 28,
+      "volume": 0.3,
+      "estabilidade": 0.6,
+      "estilo": 0.2
+    },
+    {
+      "tipo": "fala",
+      "voz": "uma voz de velho, rezando sozinho, cansado",
+      "voice_id": "",
+      "texto": "Que a luz não nos deixe nesta noite.",
+      "inicio_s": 46,
+      "volume": 0.3,
+      "estabilidade": 0.5,
+      "estilo": 0.3
+    }
+  ],
+  "observacao": "Reza falada, não cantada. Sem música. Loop sem emenda audível nos de ambiente. Fala em português de 1492, sem travessão. O jogo controla o volume final."
+}

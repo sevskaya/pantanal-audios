@@ -1,0 +1,33 @@
+{
+  "id": "rito_tempestade_ambiente",
+  "estado": "pedido",
+  "cena": "pantanal_rituais, Rito do Trovão (Tempestade). Fundo em laço: vento forte e trovão rolando.",
+  "destino": "resources/[sevskaya]/pantanal_rituais/html/sons/",
+  "arquivo": "rito_tempestade_ambiente.mp3",
+  "duracao_total_s": 60,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "strong howling wind on an open hill, grass whipping, torches flapping in the wind, no rain, no music, no melody",
+      "duracao_s": 22,
+      "inicio_s": 0,
+      "volume": 0.75,
+      "repetir": true
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "long distant thunder rolling across the sky, no rain, no music, no melody",
+      "duracao_s": 6,
+      "inicio_s": 10,
+      "volume": 0.6
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "close loud thunder crack followed by rumble, no music, no melody",
+      "duracao_s": 5,
+      "inicio_s": 38,
+      "volume": 0.7
+    }
+  ],
+  "observacao": "Sem chuva no som (o clima do jogo põe a chuva). Sem música. Loop sem emenda audível nos de ambiente. Fala em português de 1492, sem travessão. O jogo controla o volume final."
+}

@@ -1,0 +1,41 @@
+{
+  "id": "rito_xama_ambiente",
+  "estado": "pedido",
+  "cena": "pantanal_rituais, Rito dos Espíritos da Mata (Xamã). Fundo em laço: tambor de couro (o dono liberou o tambor nos ritos, 10/11), fogueira, mata viva.",
+  "destino": "resources/[sevskaya]/pantanal_rituais/html/sons/",
+  "arquivo": "rito_xama_ambiente.mp3",
+  "duracao_total_s": 60,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "slow steady ceremonial hand drum, deep leather frame drum, one beat per second, outdoors at night, no other instruments, no melody",
+      "duracao_s": 22,
+      "inicio_s": 0,
+      "volume": 0.7,
+      "repetir": true
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "campfire crackling softly in a dense forest at night, insects, frogs, leaves in the wind, no music, no melody",
+      "duracao_s": 22,
+      "inicio_s": 0,
+      "volume": 0.5,
+      "repetir": true
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "distant wolf howl echoing in the forest at night, no music, no melody",
+      "duracao_s": 4,
+      "inicio_s": 20,
+      "volume": 0.35
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "distant eagle cry over a forest, no music, no melody",
+      "duracao_s": 3,
+      "inicio_s": 45,
+      "volume": 0.3
+    }
+  ],
+  "observacao": "O tambor é a única exceção à regra sem instrumento (decisão do dono, 10/11). Sem canto. Sem música. Loop sem emenda audível nos de ambiente. Fala em português de 1492, sem travessão. O jogo controla o volume final."
+}

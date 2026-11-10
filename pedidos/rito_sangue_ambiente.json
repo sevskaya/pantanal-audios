@@ -1,0 +1,44 @@
+{
+  "id": "rito_sangue_ambiente",
+  "estado": "pedido",
+  "cena": "pantanal_rituais, Rito de Sangue. Fundo em laço: coração batendo, gotas caindo numa bacia de pedra, a voz de Guerra ao longe.",
+  "destino": "resources/[sevskaya]/pantanal_rituais/html/sons/",
+  "arquivo": "rito_sangue_ambiente.mp3",
+  "duracao_total_s": 60,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "slow heavy human heartbeat, deep and muffled, no music, no melody",
+      "duracao_s": 22,
+      "inicio_s": 0,
+      "volume": 0.6,
+      "repetir": true
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "thick liquid drops falling slowly into a stone basin, echo, no music, no melody",
+      "duracao_s": 22,
+      "inicio_s": 0,
+      "volume": 0.45,
+      "repetir": true
+    },
+    {
+      "tipo": "fala",
+      "voz": "voz grave e metálica, muito distante, como de dentro da terra",
+      "voice_id": "",
+      "texto": "Todo pacto cobra.",
+      "inicio_s": 24,
+      "volume": 0.25,
+      "estabilidade": 0.3,
+      "estilo": 0.7
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "distant man screaming in agony far away, wordless, echoing, no music, no melody",
+      "duracao_s": 3,
+      "inicio_s": 47,
+      "volume": 0.2
+    }
+  ],
+  "observacao": "A voz é a de Guerra, o Primeiro Cavaleiro, ainda preso. Sem música. Loop sem emenda audível nos de ambiente. Fala em português de 1492, sem travessão. O jogo controla o volume final."
+}

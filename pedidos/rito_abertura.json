@@ -1,0 +1,18 @@
+{
+  "id": "rito_abertura",
+  "estado": "pedido",
+  "cena": "pantanal_rituais: toca uma vez quando o rito começa (as faixas de cinema entram). Serve para as 6 vertentes.",
+  "destino": "resources/[sevskaya]/pantanal_rituais/html/sons/",
+  "arquivo": "rito_abertura.mp3",
+  "duracao_total_s": 6,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "deep low cinematic boom with a long dark rumble and wind rising, ominous, no music, no melody",
+      "duracao_s": 6,
+      "inicio_s": 0,
+      "volume": 0.9
+    }
+  ],
+  "observacao": "Sem música. Loop sem emenda audível nos de ambiente. Fala em português de 1492, sem travessão. O jogo controla o volume final."
+}

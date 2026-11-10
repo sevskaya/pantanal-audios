@@ -1,0 +1,18 @@
+{
+  "id": "rito_cumprido",
+  "estado": "pedido",
+  "cena": "pantanal_rituais: toca uma vez quando o rito se cumpre (desfecho na tela).",
+  "destino": "resources/[sevskaya]/pantanal_rituais/html/sons/",
+  "arquivo": "rito_cumprido.mp3",
+  "duracao_total_s": 6,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "wind suddenly dying down into silence after a storm, a single deep resonant low hum fading out, calm, no music, no melody",
+      "duracao_s": 6,
+      "inicio_s": 0,
+      "volume": 0.85
+    }
+  ],
+  "observacao": "Sem música. Loop sem emenda audível nos de ambiente. Fala em português de 1492, sem travessão. O jogo controla o volume final."
+}

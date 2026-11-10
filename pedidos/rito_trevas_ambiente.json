@@ -1,0 +1,49 @@
+{
+  "id": "rito_trevas_ambiente",
+  "estado": "pedido",
+  "cena": "pantanal_rituais, Rito das Sombras (Trevas). Fundo em laço: noite pesada, sussurros em português.",
+  "destino": "resources/[sevskaya]/pantanal_rituais/html/sons/",
+  "arquivo": "rito_trevas_ambiente.mp3",
+  "duracao_total_s": 60,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "cold night wind in a dead swamp, low eerie drone of wind, candles flickering, distant owl, no instruments, no voices, no music, no melody",
+      "duracao_s": 22,
+      "inicio_s": 0,
+      "volume": 0.7,
+      "repetir": true
+    },
+    {
+      "tipo": "fala",
+      "voz": "sussurro rouco bem perto do ouvido",
+      "voice_id": "",
+      "texto": "Não olha para trás.",
+      "inicio_s": 8,
+      "volume": 0.3,
+      "estabilidade": 0.2,
+      "estilo": 0.6
+    },
+    {
+      "tipo": "fala",
+      "voz": "sussurro distante, ao fundo",
+      "voice_id": "",
+      "texto": "Ela já está ouvindo...",
+      "inicio_s": 27,
+      "volume": 0.22,
+      "estabilidade": 0.2,
+      "estilo": 0.6
+    },
+    {
+      "tipo": "fala",
+      "voz": "várias vozes sussurrando ao mesmo tempo",
+      "voice_id": "",
+      "texto": "Noite... noite... noite...",
+      "inicio_s": 46,
+      "volume": 0.2,
+      "estabilidade": 0.2,
+      "estilo": 0.6
+    }
+  ],
+  "observacao": "Sem música. Loop sem emenda audível nos de ambiente. Fala em português de 1492, sem travessão. O jogo controla o volume final."
+}
