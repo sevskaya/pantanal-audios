@@ -12,7 +12,7 @@
   "camadas": [
     {
       "tipo": "efeito",
-      "descricao": "night ambience in an old swamp forest, low wind through dry trees, distant crickets, old wooden shack creaking softly, no music",
+      "descricao": "night ambience in an old swamp forest, low wind through dry trees, distant crickets, old wooden shack creaking softly, no music, no instruments, no voices",
       "duracao_s": 22,
       "repetir": true,
       "inicio_s": 0,
@@ -29,6 +29,23 @@
       "estilo": 0.5
     },
     {
+      "tipo": "efeito",
+      "descricao": "distant terrified woman screaming far away in a swamp forest at night, echoing, wordless scream only, no speech, no music, no instruments",
+      "duracao_s": 3,
+      "inicio_s": 15,
+      "volume": 0.35
+    },
+    {
+      "tipo": "fala",
+      "voz": "sussurro distante, ao fundo",
+      "voice_id": "",
+      "texto": "Ela vem... ela vem...",
+      "inicio_s": 19,
+      "volume": 0.3,
+      "estabilidade": 0.2,
+      "estilo": 0.5
+    },
+    {
       "tipo": "fala",
       "voz": "a mesma",
       "voice_id": "",
@@ -39,11 +56,45 @@
       "estilo": 0.5
     },
     {
+      "tipo": "fala",
+      "voz": "sussurro distante, ao fundo",
+      "voice_id": "",
+      "texto": "Debaixo da terra...",
+      "inicio_s": 33,
+      "volume": 0.3,
+      "estabilidade": 0.2,
+      "estilo": 0.5
+    },
+    {
       "tipo": "efeito",
-      "descricao": "long low hiss of a huge snake close to the ground, muffled, slow",
+      "descricao": "far away man screaming in agony, muffled by forest, wordless scream only, no speech, no music, no instruments",
+      "duracao_s": 3.5,
+      "inicio_s": 36,
+      "volume": 0.3
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "long low hiss of a huge snake close to the ground, muffled, slow, no music, no instruments",
       "duracao_s": 4,
       "inicio_s": 40,
       "volume": 0.5
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "several distant voices wailing in fear, short, wordless, no speech, no music, no instruments",
+      "duracao_s": 2.5,
+      "inicio_s": 44.5,
+      "volume": 0.3
+    },
+    {
+      "tipo": "fala",
+      "voz": "sussurro distante, ao fundo",
+      "voice_id": "",
+      "texto": "Não olha para trás...",
+      "inicio_s": 47,
+      "volume": 0.3,
+      "estabilidade": 0.2,
+      "estilo": 0.5
     },
     {
       "tipo": "fala",
@@ -57,6 +108,33 @@
     },
     {
       "tipo": "fala",
+      "voz": "sussurro distante, ao fundo",
+      "voice_id": "",
+      "texto": "Ela escuta...",
+      "inicio_s": 58,
+      "volume": 0.3,
+      "estabilidade": 0.2,
+      "estilo": 0.5
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "several muffled screams overlapping, sounding as if from deep under the ground, wordless, no speech, no music, no instruments",
+      "duracao_s": 5,
+      "inicio_s": 62,
+      "volume": 0.4
+    },
+    {
+      "tipo": "fala",
+      "voz": "sussurro distante, ao fundo",
+      "voice_id": "",
+      "texto": "Fica quieto... fica quieto...",
+      "inicio_s": 68,
+      "volume": 0.3,
+      "estabilidade": 0.2,
+      "estilo": 0.5
+    },
+    {
+      "tipo": "fala",
       "voz": "a mesma",
       "voice_id": "",
       "texto": "Cinco... seis... Ela não pode me ver.",
@@ -64,8 +142,25 @@
       "volume": 1.0,
       "estabilidade": 0.3,
       "estilo": 0.5
+    },
+    {
+      "tipo": "fala",
+      "voz": "sussurro distante, ao fundo",
+      "voice_id": "",
+      "texto": "Frio... tanto frio...",
+      "inicio_s": 81,
+      "volume": 0.3,
+      "estabilidade": 0.2,
+      "estilo": 0.5
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "one long distant wordless scream slowly fading away in a dark swamp, no speech, no music, no instruments",
+      "duracao_s": 4,
+      "inicio_s": 84,
+      "volume": 0.4
     }
   ],
 
-  "observacao": "Usar a MESMA voz nas 4 falas (escolher na Voice Library uma voz de criança ou voz baixa sussurrada e pôr o id em voice_id, ou no ELEVENLABS_VOICE_ID). Efeitos em inglês porque o gerador de efeitos entende melhor. No jogo toca a 15 m, volume 0.1: o sussurro tem que ser audível de perto e sumir de longe."
+  "observacao": "Decisão do dono (09/11/2026): SEM música e SEM instrumentos; no lugar deles, gritos distantes. NADA de inglês audível; o fundo tem sussurros em português. As descrições dos efeitos seguem em inglês só porque são instrução para o gerador e não se ouvem. Ao ouvir antes de subir: se algum efeito sair com música ou com palavra em inglês, refazer. Usar a MESMA voz nas falas (escolher na Voice Library uma voz de criança ou voz baixa sussurrada e pôr o id em voice_id, ou no ELEVENLABS_VOICE_ID). No jogo toca a 15 m, volume 0.1: o sussurro tem que ser audível de perto e sumir de longe."
 }
