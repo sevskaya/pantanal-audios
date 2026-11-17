@@ -1,0 +1,18 @@
+{
+  "id": "sr_resgate_armadilha",
+  "estado": "pedido",
+  "cena": "pantanal_saber_roubado: a armadilha de ferro abre (salvamento: preso na armadilha).",
+  "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
+  "arquivo": "sr_resgate_armadilha.mp3",
+  "duracao_total_s": 3,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "a rusty iron leg-hold trap being pried open, heavy spring creaking and snapping loose, dry leaves rustling, no music",
+      "duracao_s": 3,
+      "inicio_s": 0,
+      "volume": 0.85
+    }
+  ],
+  "observacao": "Sem música e sem instrumento melódico. Nada de inglês audível. O jogo controla o volume final."
+}
