@@ -1,0 +1,25 @@
+{
+  "id": "cav_sagracao_quebrada",
+  "estado": "pedido",
+  "cena": "pantanal_cavalaria: a cerimônia parou (alguém se afastou, caiu ou saiu).",
+  "destino": "resources/[sevskaya]/pantanal_cavalaria/html/sons/",
+  "arquivo": "cav_sagracao_quebrada.mp3",
+  "duracao_total_s": 5,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "a small crowd murmuring in disappointment and slowly dispersing, footsteps leaving, no music, no melody",
+      "duracao_s": 4,
+      "inicio_s": 0,
+      "volume": 0.6
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "cold wind blowing softly, no music, no melody",
+      "duracao_s": 5,
+      "inicio_s": 0,
+      "volume": 0.4
+    }
+  ],
+  "observacao": "Sem música e sem instrumento. Voz só em português, sem travessão. Loop sem emenda audível no de ambiente. O jogo controla o volume final."
+}

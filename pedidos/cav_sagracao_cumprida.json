@@ -1,0 +1,32 @@
+{
+  "id": "cav_sagracao_cumprida",
+  "estado": "pedido",
+  "cena": "pantanal_cavalaria: o escudeiro vira cavaleiro (desfecho com clarão).",
+  "destino": "resources/[sevskaya]/pantanal_cavalaria/html/sons/",
+  "arquivo": "cav_sagracao_cumprida.mp3",
+  "duracao_total_s": 6,
+  "camadas": [
+    {
+      "tipo": "fala",
+      "texto": "Viva!",
+      "voz": "multidão de homens e mulheres, vários ao mesmo tempo, alegre",
+      "inicio_s": 0.3,
+      "volume": 0.8
+    },
+    {
+      "tipo": "fala",
+      "texto": "Viva o cavaleiro!",
+      "voz": "multidão, vários ao mesmo tempo, alegre",
+      "inicio_s": 1.6,
+      "volume": 0.7
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "swords banging rhythmically on wooden shields in celebration, crowd cheering, no music, no melody",
+      "duracao_s": 4.5,
+      "inicio_s": 1,
+      "volume": 0.7
+    }
+  ],
+  "observacao": "Sem música e sem instrumento. Voz só em português, sem travessão. Loop sem emenda audível no de ambiente. O jogo controla o volume final."
+}

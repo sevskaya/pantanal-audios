@@ -1,0 +1,25 @@
+{
+  "id": "cav_sagracao_toque",
+  "estado": "pedido",
+  "cena": "pantanal_cavalaria: a espada toca o ombro do escudeiro (penúltima fala do juramento).",
+  "destino": "resources/[sevskaya]/pantanal_cavalaria/html/sons/",
+  "arquivo": "cav_sagracao_toque.mp3",
+  "duracao_total_s": 4,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "a steel sword being drawn slowly from its scabbard, no music, no melody",
+      "duracao_s": 1.6,
+      "inicio_s": 0,
+      "volume": 0.75
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "the flat of a steel blade lightly tapping armor, a clear resonant metallic ring fading out, no music, no melody",
+      "duracao_s": 2.4,
+      "inicio_s": 1.5,
+      "volume": 0.85
+    }
+  ],
+  "observacao": "Sem música e sem instrumento. Voz só em português, sem travessão. Loop sem emenda audível no de ambiente. O jogo controla o volume final."
+}

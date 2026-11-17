@@ -1,0 +1,32 @@
+{
+  "id": "cav_sagracao_abertura",
+  "estado": "pedido",
+  "cena": "pantanal_cavalaria: começa a sagração (faixas pretas, cartão \"Sagração\").",
+  "destino": "resources/[sevskaya]/pantanal_cavalaria/html/sons/",
+  "arquivo": "cav_sagracao_abertura.mp3",
+  "duracao_total_s": 6,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "heavy boots walking slowly on stone, armor clinking with each step, no music, no melody",
+      "duracao_s": 4,
+      "inicio_s": 0,
+      "volume": 0.7
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "a small crowd murmuring then falling silent, no music, no melody",
+      "duracao_s": 4,
+      "inicio_s": 0.5,
+      "volume": 0.45
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "a single distant church bell toll, no music, no melody",
+      "duracao_s": 3,
+      "inicio_s": 3,
+      "volume": 0.5
+    }
+  ],
+  "observacao": "Sem música e sem instrumento. Voz só em português, sem travessão. Loop sem emenda audível no de ambiente. O jogo controla o volume final."
+}

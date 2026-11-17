@@ -1,0 +1,25 @@
+{
+  "id": "cav_abrir",
+  "estado": "pedido",
+  "cena": "pantanal_cavalaria: abrir a tela da Escola de Cavalaria (/cavalaria).",
+  "destino": "resources/[sevskaya]/pantanal_cavalaria/html/sons/",
+  "arquivo": "cav_abrir.mp3",
+  "duracao_total_s": 2,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "light plate armor clinking as a knight shifts, short, no music, no melody",
+      "duracao_s": 1.5,
+      "inicio_s": 0,
+      "volume": 0.7
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "old parchment scroll being unrolled, short, no music, no melody",
+      "duracao_s": 1.2,
+      "inicio_s": 0.4,
+      "volume": 0.6
+    }
+  ],
+  "observacao": "Sem música e sem instrumento. Voz só em português, sem travessão. Loop sem emenda audível no de ambiente. O jogo controla o volume final."
+}

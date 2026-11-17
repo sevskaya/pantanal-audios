@@ -1,0 +1,40 @@
+{
+  "id": "cav_sagracao_ambiente",
+  "estado": "pedido",
+  "cena": "pantanal_cavalaria: fundo em laço durante a sagração, baixo, por baixo das falas.",
+  "destino": "resources/[sevskaya]/pantanal_cavalaria/html/sons/",
+  "arquivo": "cav_sagracao_ambiente.mp3",
+  "duracao_total_s": 60,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "torches crackling at dusk outdoors, light wind, no voices, no music, no melody",
+      "duracao_s": 22,
+      "inicio_s": 0,
+      "volume": 0.7,
+      "repetir": true
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "horses snorting and shifting hooves in the distance, no music, no melody",
+      "duracao_s": 3,
+      "inicio_s": 14,
+      "volume": 0.35
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "quiet low crowd murmur, distant, no music, no melody",
+      "duracao_s": 20,
+      "inicio_s": 25,
+      "volume": 0.25
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "horses snorting and shifting hooves in the distance, no music, no melody",
+      "duracao_s": 3,
+      "inicio_s": 47,
+      "volume": 0.35
+    }
+  ],
+  "observacao": "Sem música e sem instrumento. Voz só em português, sem travessão. Loop sem emenda audível no de ambiente. O jogo controla o volume final."
+}

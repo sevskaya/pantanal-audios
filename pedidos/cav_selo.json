@@ -1,0 +1,18 @@
+{
+  "id": "cav_selo",
+  "estado": "pedido",
+  "cena": "pantanal_cavalaria: o jogador salva o brasão e o lema.",
+  "destino": "resources/[sevskaya]/pantanal_cavalaria/html/sons/",
+  "arquivo": "cav_selo.mp3",
+  "duracao_total_s": 2,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "hot wax seal being pressed firmly onto parchment, a short metallic tap, no music, no melody",
+      "duracao_s": 1.6,
+      "inicio_s": 0,
+      "volume": 0.8
+    }
+  ],
+  "observacao": "Sem música e sem instrumento. Voz só em português, sem travessão. Loop sem emenda audível no de ambiente. O jogo controla o volume final."
+}
