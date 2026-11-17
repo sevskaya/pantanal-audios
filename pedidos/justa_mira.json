@@ -1,0 +1,18 @@
+{
+  "id": "justa_mira",
+  "estado": "pedido",
+  "cena": "justa_pantanal 0.9: o cavaleiro troca a mira da lança (teclas 1 a 4 da roseta). Curto, toca muitas vezes.",
+  "destino": "resources/[sevskaya]/justa_pantanal/html/sons/",
+  "arquivo": "justa_mira.mp3",
+  "duracao_total_s": 1,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "leather creaking as a gauntleted hand shifts grip on a wooden lance, a light tap of wood on metal, very short, no music, no melody",
+      "duracao_s": 1,
+      "inicio_s": 0,
+      "volume": 0.8
+    }
+  ],
+  "observacao": "Sem música e sem instrumento. Muito curto e discreto: toca a cada troca de mira."
+}
