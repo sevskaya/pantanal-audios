@@ -1,0 +1,18 @@
+{
+  "id": "sr_climax",
+  "estado": "pedido",
+  "cena": "pantanal_saber_roubado: toca no clímax da Reza Roubada (os entalhes acendem, os espíritos aparecem).",
+  "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
+  "arquivo": "sr_climax.mp3",
+  "duracao_total_s": 7,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "piercing cry of a bird of prey, a violent gust of wind and the sound of a large stone cracking open, supernatural and angry, no music, no melody",
+      "duracao_s": 7,
+      "inicio_s": 0,
+      "volume": 1
+    }
+  ],
+  "observacao": "Sem música e sem instrumento melódico. Nada de inglês audível. Loop sem emenda audível nos de ambiente. O jogo controla o volume final."
+}

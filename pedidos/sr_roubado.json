@@ -1,0 +1,18 @@
+{
+  "id": "sr_roubado",
+  "estado": "pedido",
+  "cena": "pantanal_saber_roubado: toca quando o ritual roubado se cumpre (ele aprende o Arandu).",
+  "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
+  "arquivo": "sr_roubado.mp3",
+  "duracao_total_s": 6,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "sudden silence after wind, a single deep resonant low hum slowly fading out, uneasy calm, no music, no melody",
+      "duracao_s": 6,
+      "inicio_s": 0,
+      "volume": 0.85
+    }
+  ],
+  "observacao": "Sem música e sem instrumento melódico. Nada de inglês audível. Loop sem emenda audível nos de ambiente. O jogo controla o volume final."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "sr_profanacao_ambiente",
+  "estado": "pedido",
+  "cena": "pantanal_saber_roubado: fundo das 3 fases do ritual roubado (repete). Algo errado acontecendo na pedra sagrada.",
+  "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
+  "arquivo": "sr_profanacao_ambiente.mp3",
+  "duracao_total_s": 22,
+  "camadas": [
+    {
+      "tipo": "efeito",
+      "descricao": "night on a mountain, low muffled ritual drum beating slowly far away, cold wind, crackling embers, ominous and tense, seamless loop, no music, no melody",
+      "duracao_s": 22,
+      "inicio_s": 0,
+      "volume": 0.6,
+      "repetir": true
+    },
+    {
+      "tipo": "fala",
+      "voz": "vozes sussurrando com raiva, várias pessoas, baixinho",
+      "voice_id": "",
+      "texto": "Isso não é seu. Saia daqui. A pedra não é sua.",
+      "inicio_s": 6,
+      "volume": 0.3,
+      "estabilidade": 0.3,
+      "estilo": 0.5
+    }
+  ],
+  "observacao": "Sem música e sem instrumento melódico. Nada de inglês audível. Loop sem emenda audível nos de ambiente. O jogo controla o volume final."
+}
