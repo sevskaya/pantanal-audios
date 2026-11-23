@@ -1,6 +1,6 @@
 {
   "id": "sr_caderno_abrir",
-  "estado": "gerado",
+  "estado": "instalado",
   "cena": "pantanal_saber_roubado: toca ao abrir o Caderno de Estudos (tela de papel velho).",
   "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
   "arquivo": "sr_caderno_abrir.mp3",

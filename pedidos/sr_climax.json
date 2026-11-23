@@ -1,6 +1,6 @@
 {
   "id": "sr_climax",
-  "estado": "gerado",
+  "estado": "instalado",
   "cena": "pantanal_saber_roubado: toca no clímax da Reza Roubada (os entalhes acendem, os espíritos aparecem).",
   "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
   "arquivo": "sr_climax.mp3",

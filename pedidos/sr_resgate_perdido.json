@@ -1,6 +1,6 @@
 {
   "id": "sr_resgate_perdido",
-  "estado": "gerado",
+  "estado": "instalado",
   "cena": "pantanal_saber_roubado: o animal não resistiu (salvamento perdido).",
   "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
   "arquivo": "sr_resgate_perdido.mp3",
