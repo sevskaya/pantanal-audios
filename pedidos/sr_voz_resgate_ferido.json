@@ -1,6 +1,6 @@
 {
   "id": "sr_voz_resgate_ferido",
-  "estado": "pedido",
+  "estado": "gerado",
   "cena": "pantanal_saber_roubado: VOZ, toca junto com a legenda \"Está sangrando e mal fica de pé. Primeiro a ferida, depois um lugar seguro.\" (23/11/2026).",
   "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
   "arquivo": "sr_voz_resgate_ferido.mp3",
@@ -9,12 +9,13 @@
     {
       "tipo": "fala",
       "voz": "voz masculina adulta, pensamento em voz baixa, terna e cuidadosa, falando com um animal",
-      "voice_id": "",
+      "voice_id": "h96v1HCJtcisNNeagp0R",
       "texto": "Está sangrando e mal fica de pé. Primeiro a ferida, depois um lugar seguro.",
       "inicio_s": 0.3,
       "volume": 1,
-      "estabilidade": 0.45,
-      "estilo": 0.35
+      "estabilidade": 0.5,
+      "estilo": 0.25,
+      "modelo": "eleven_multilingual_v2"
     }
   ],
   "observacao": "Português do Brasil. Só a voz, sem música e sem efeito por baixo (o ambiente já toca). Cortar o silêncio do fim. O jogo controla o volume final."

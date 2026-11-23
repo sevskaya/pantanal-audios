@@ -1,6 +1,6 @@
 {
   "id": "sr_pagina",
-  "estado": "pedido",
+  "estado": "gerado",
   "cena": "pantanal_saber_roubado: toca ao trocar de aba no Caderno.",
   "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
   "arquivo": "sr_pagina.mp3",
