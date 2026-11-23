@@ -1,0 +1,21 @@
+{
+  "id": "sr_voz_abertura_3",
+  "estado": "pedido",
+  "cena": "pantanal_saber_roubado: VOZ, toca junto com a legenda \"Se o saber é deles, que me prove a pedra.\" (23/11/2026).",
+  "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
+  "arquivo": "sr_voz_abertura_3.mp3",
+  "duracao_total_s": 8,
+  "camadas": [
+    {
+      "tipo": "fala",
+      "voz": "voz masculina adulta, pensamento em voz baixa, tenso e com medo contido, respiração presa",
+      "voice_id": "",
+      "texto": "Se o saber é deles, que me prove a pedra.",
+      "inicio_s": 0.3,
+      "volume": 1,
+      "estabilidade": 0.45,
+      "estilo": 0.35
+    }
+  ],
+  "observacao": "Português do Brasil. Só a voz, sem música e sem efeito por baixo (o ambiente já toca). Cortar o silêncio do fim. O jogo controla o volume final."
+}

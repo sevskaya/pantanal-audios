@@ -1,0 +1,21 @@
+{
+  "id": "sr_voz_resgate_jaula_aberta",
+  "estado": "pedido",
+  "cena": "pantanal_saber_roubado: VOZ, toca junto com a legenda \"O cadeado cede. A porta range, e o bicho dispara para o mato.\" (23/11/2026).",
+  "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
+  "arquivo": "sr_voz_resgate_jaula_aberta.mp3",
+  "duracao_total_s": 8,
+  "camadas": [
+    {
+      "tipo": "fala",
+      "voz": "voz masculina adulta, pensamento em voz baixa de um pesquisador do século XIX, sério, concentrado, quase um sussurro",
+      "voice_id": "",
+      "texto": "O cadeado cede. A porta range, e o bicho dispara para o mato.",
+      "inicio_s": 0.3,
+      "volume": 1,
+      "estabilidade": 0.45,
+      "estilo": 0.35
+    }
+  ],
+  "observacao": "Português do Brasil. Só a voz, sem música e sem efeito por baixo (o ambiente já toca). Cortar o silêncio do fim. O jogo controla o volume final."
+}
