@@ -1,0 +1,29 @@
+{
+  "id": "sr_resp_4",
+  "estado": "pedido",
+  "cena": "pantanal_saber_roubado: VOZ DA PEDRA, Floresta Cumberland, a pedra responde quando o saber é roubado, junto com a legenda \"Você leu o que não foi escrito para você.\" (24/11/2026).",
+  "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
+  "arquivo": "sr_resp_4.mp3",
+  "duracao_total_s": 6,
+  "camadas": [
+    {
+      "tipo": "fala",
+      "voz": "a voz da pedra sagrada, um ancestral indígena, sussurro grave e ferido, lento, frio, quase sem ar",
+      "voice_id": "Hsrdp9vv51A8JfLqfIH8",
+      "texto": "Você leu o que não foi escrito para você.",
+      "inicio_s": 0.4,
+      "volume": 1,
+      "estabilidade": 0.35,
+      "estilo": 0.55,
+      "modelo": "eleven_multilingual_v2"
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "deep ghostly breath exhaling through stone cracks, low rumble fading, eerie, no music, no voices",
+      "duracao_s": 6,
+      "inicio_s": 0,
+      "volume": 0.22
+    }
+  ],
+  "observacao": "Português do Brasil. Sussurro de verdade, perto do ouvido, sem chiado de boca exagerado. O sopro por baixo é baixo, só textura. Cortar o silêncio do fim. O jogo controla o volume final."
+}

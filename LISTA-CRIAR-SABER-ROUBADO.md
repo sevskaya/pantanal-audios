@@ -67,3 +67,15 @@ Duas vozes: o **Etnógrafo** (naturalista estrangeiro, culto, calmo) e o **Pesqu
 ## 3. Opcional: ajustar o cenário
 
 O cenário do salvamento (jaula, acampamento dos caçadores, armadilhas, rede) fica em `config.lua` do Saber Roubado, em `Config.Resgate.cenas`. Cada objeto tem `x` (direita), `y` (frente), `h` (giro). Se algo ficar torto ou dentro de outro objeto quando testar, me diga qual e eu acerto.
+
+## 24/11/2026: a voz da pedra (pedido do dono: nível AAA, cada pedra com a sua história)
+O dono achou que as falas se repetiam em toda pedra. Agora cada uma das 10 pedras tem a sua história, sussurrada pela **voz da pedra** (um ancestral):
+- `sr_hist_<pedra>_1..3`: 3 sussurros durante a investigação (30 arquivos, até 5 s cada);
+- `sr_resp_<pedra>`: a pedra responde quando o saber é roubado (10 arquivos).
+
+Cada arquivo tem duas camadas: o sussurro e, por baixo, um sopro de vento nas pedras.
+
+Refeitos com camadas de cinema: `sr_investigar_ambiente` (vento, drone e lápis) e `sr_anotado` (caderno fechando e impacto).
+
+**No PC:** `git pull`, `python tools/gerar.py`, ouvir, `git add audios pedidos`, commit e push.
+A voz é a `Hsrdp9vv51A8JfLqfIH8`, a mesma dos sussurros da profanação. Se não ficar boa, trocar o `voice_id` nos `sr_hist_*` e `sr_resp_*` e rodar `--refazer`.

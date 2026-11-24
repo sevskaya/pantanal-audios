@@ -1,17 +1,24 @@
 {
   "id": "sr_anotado",
-  "estado": "instalado",
-  "cena": "pantanal_saber_roubado: toca quando a investigação termina (\"Segredo anotado\").",
+  "estado": "pedido",
+  "cena": "pantanal_saber_roubado: toca quando a investigação termina (\"Segredo anotado\"). 24/11: refeito com impacto de cinema.",
   "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
   "arquivo": "sr_anotado.mp3",
-  "duracao_total_s": 3,
+  "duracao_total_s": 4,
   "camadas": [
     {
       "tipo": "efeito",
-      "descricao": "a final quick pencil stroke on paper followed by a leather notebook closing with a soft thud, no music",
+      "descricao": "a final quick pencil stroke on paper followed by a leather notebook closing with a soft thud",
       "duracao_s": 3,
       "inicio_s": 0,
-      "volume": 0.85
+      "volume": 0.8
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "deep cinematic low boom with a spectral whoosh rising and fading, mystical reveal, no music",
+      "duracao_s": 4,
+      "inicio_s": 0.5,
+      "volume": 0.6
     }
   ],
   "observacao": "Sem música e sem instrumento melódico. Nada de inglês audível. Loop sem emenda audível nos de ambiente. O jogo controla o volume final."

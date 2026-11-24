@@ -1,0 +1,29 @@
+{
+  "id": "sr_hist_3_3",
+  "estado": "pedido",
+  "cena": "pantanal_saber_roubado: VOZ DA PEDRA, Cordilheira Roanoke, sussurro 3 de 3 da investigação, junto com a legenda \"Muitos riscos aqui já não têm dono.\" (24/11/2026). Tem que caber em 5 s.",
+  "destino": "resources/[nativos]/pantanal_saber_roubado/html/sons/",
+  "arquivo": "sr_hist_3_3.mp3",
+  "duracao_total_s": 6,
+  "camadas": [
+    {
+      "tipo": "fala",
+      "voz": "a voz da pedra sagrada, um ancestral indígena contando a história do lugar, sussurro grave, lento, íntimo, como quem conta um segredo perto do fogo",
+      "voice_id": "Hsrdp9vv51A8JfLqfIH8",
+      "texto": "Muitos riscos aqui já não têm dono.",
+      "inicio_s": 0.4,
+      "volume": 1,
+      "estabilidade": 0.35,
+      "estilo": 0.45,
+      "modelo": "eleven_multilingual_v2"
+    },
+    {
+      "tipo": "efeito",
+      "descricao": "soft spectral wind breathing through rock crevices, faint distant wooden flute note fading, eerie and intimate, no voices",
+      "duracao_s": 6,
+      "inicio_s": 0,
+      "volume": 0.22
+    }
+  ],
+  "observacao": "Português do Brasil. Sussurro de verdade, perto do ouvido, sem chiado de boca exagerado. O sopro por baixo é baixo, só textura. Cortar o silêncio do fim. O jogo controla o volume final."
+}
